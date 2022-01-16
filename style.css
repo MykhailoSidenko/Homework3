@@ -1,0 +1,151 @@
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width: 1280px;
+}
+
+.logo h1 {
+    font-size: 80px;
+    line-height: 94px;
+    margin-top: 63px;
+
+}
+
+.logo h1 span {
+    color: aqua;
+}
+
+.list-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 72px;
+    background-color: rgba(0, 0, 0, 0.301);
+    margin-top: 38px;   
+
+}
+
+.list-menu li:hover {
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+.list-menu li a {
+    color: white;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0 33px 0 33px;
+
+}
+
+.list-menu li{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;  
+    height: 72px; 
+    
+}
+/* HEADER END */
+
+
+.wrapper-main {
+    width: 1280px;
+    margin: 48px auto 0 auto;
+    display: flex;
+}
+
+.side-bar {
+    width: 344px;
+    height: 399px;
+    border: 1px solid black;
+    margin-right: 52px;
+
+}
+
+.list-side-bar li {
+    padding: 25px 0 25px 44px;
+    transition: 1s;
+}
+
+.list-side-bar li:hover {
+width:  342px;
+height: 81px;
+background-color: rgba(0, 0, 0, 0.349);
+padding-left: 70px;
+
+
+}
+.list-side-bar li a {
+    font-size:  27px;
+    line-height: 27px;
+}
+
+.content {
+    width: 885px;
+
+}
+
+.img {
+    width: 885px;
+    height: 529px;
+    border: 1px solid black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img img {
+    width: 320px;
+    height: 381px;
+}
+
+.text p {
+    margin-top: 35px;
+}
+
+/* main end */
+
+.section {
+    display: flex;
+    width: 1280px;
+    height: 70px;
+    margin: 54px auto 30px auto;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-footer {
+    display: flex;
+    width: 875px;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.list-footer a {
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.copyright p {
+    font-size: 24px;
+    line-height: 24px;
+    margin-right: 40px;
+}
+
+.list-footer a:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
